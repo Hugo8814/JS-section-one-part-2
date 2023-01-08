@@ -158,4 +158,64 @@
 
 // console.log(yearTilRetire(2003, "hugo"));
 // console.log(yearTilRetire(1942, "mike"));
-console.log();
+
+// const calcAverage = (num1, num2, num3) => {
+//   return (num1 + num2 + num3) / 3;
+// };
+
+// const scoreDolphins = calcAverage(44, 23, 71);
+// console.log(scoreDolphins);
+// const scoreKoalas = calcAverage(85, 54, 41);
+// console.log(scoreKoalas);
+
+// function checkWinner(avgDolhins, avgKoalas) {
+//   if (avgDolhins >= avgKoalas * 2) {
+//     console.log(`Dolhins win (${avgDolhins} vs ${avgKoalas})`);
+//   } else if (avgKoalas >= avgDolhins * 2) {
+//     console.log(`Koalas win (${avgKoalas} vs ${avgDolhins})`);
+//   } else {
+//     console.log("no Team wins...");
+//   }
+// }
+
+// console.log(checkWinner(scoreDolphins, scoreKoalas));
+
+// const friend1 = "bob";
+// const friend2 = "danny";
+// const friend3 = "mike";
+
+// const friends = [" bob", "tim", "mike"];
+// console.log(friends);
+
+// const y = new Array(2003, 100, 23, 244234, 4234, 424);
+// console.log(friends[2]);
+// console.log(friends[0]);
+
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = "jay";
+// console.log(friends);
+
+// const firstName = "hugo";
+// const hugo = [firstName, "pereia", 2026 - 2003, friends, "sigma"];
+// console.log(hugo);
+
+// const calcAge = function (birthYear) {
+//   return 2026 - birthYear;
+// };
+
+// const years = [1990, 1983, 1903, 2003, 2004, 1756];
+
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[2]);
+// const age3 = calcAge(years[years.length - 1]);
+// console.log(age1, age2, age3);
+
+// const ages = [
+//   calcAge(years[0]),
+//   calcAge(years[2]),
+//   calcAge(years[years.length - 1]),
+// ];
+
+// console.log(ages);
