@@ -158,3 +158,4 @@
 
 // console.log(yearTilRetire(2003, "hugo"));
 // console.log(yearTilRetire(1942, "mike"));
+console.log();
