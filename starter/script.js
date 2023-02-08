@@ -315,9 +315,9 @@
 //   friends: [("tim", "Bob", "pat")],
 // };
 
-const myCountry = {
-  country: "uk",
-  capital: "london",
-  language:"english"
-  population:"74 million"
-};
+// const myCountry = {
+//   country: "uk",
+//   capital: "london",
+//   language:"english"
+//   population:"74 million"
+// };
