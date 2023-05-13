@@ -299,3 +299,18 @@
 // }
 // neighbours[neighbours.indexOf("Sweden")] = "Republic of Sweden";
 // console.log(neighbours);
+
+const jonasArray = [
+  "hugo",
+  "pereira",
+  2023 - 2003,
+  "five guys"[("tim", "Bob", "pat")],
+];
+
+const jonas = {
+  firstName: "hugo",
+  lastName: "pereira",
+  age: 2023 - 2003,
+  job: "five guys",
+  friends: [("tim", "Bob", "pat")],
+};
