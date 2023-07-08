@@ -464,5 +464,20 @@ const tips = [];
 const totals = [];
 
 for (let i = 0; i < bills.length; i++) {
-  tips = bills[i] + calcTip(bills);
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(tip + bills[i]);
 }
+console.log(bills, tips, totals);
+
+const calcAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  console.log(sum);
+  return sum / arr.length;
+};
+console.log(calcAverage([2, 4, 10]));
+console.log(calcAverage(totals));
+console.log(calcAverage(tips));
