@@ -260,29 +260,29 @@
 //   return tip;
 // };
 
-const clactip = function (bill) {
-  let tip;
-  if (bill >= 50 && bill <= 300) {
-    tip = bill * 0.15 + bill;
-  } else {
-    tip = bill * 0.2 + bill;
-  }
-  return tip;
-};
+// const calcTip = function (bill) {
+//   let tip;
+//   if (bill >= 50 && bill <= 300) {
+//     tip = bill * 0.15;
+//   } else {
+//     tip = bill * 0.2;
+//   }
+//   return tip;
+// };
 
-console.log(clactip(100));
+// console.log(calcTip(100));
 
-const bills = [124, 555, 44];
-const bill1 = clactip(bills[0]);
-const bill2 = clactip(bills[1]);
-const bill3 = clactip(bills[2]);
+// const bills = [124, 555, 44];
+// const bill1 = calcTip(bills[0]);
+// const bill2 = calcTip(bills[1]);
+// const bill3 = calcTip(bills[2]);
 
-console.log(bill1);
-console.log(bill2);
-console.log(bill3);
+// console.log(bill1);
+// console.log(bill2);
+// console.log(bill3);
 
-const tip = [bill1, bill2, bill3];
-console.log(tip);
+// const tips = [bill1, bill2, bill3];
+// console.log(tip);
 
-const total = [tip, bills];
-console.log(total);
+// const total = [tips, bills];
+// console.log(totals, bills, tips);
