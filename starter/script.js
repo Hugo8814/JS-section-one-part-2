@@ -286,3 +286,16 @@
 
 // const total = [tips, bills];
 // console.log(totals, bills, tips);
+
+const populations = [4.1, 34, 1200, 3500];
+console.log(populations.length === 4);
+const neighbours = ["Norway", "Sweden", "Russia"];
+neighbours.push("Utopia");
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+if (!neighbours.includes("Germany")) {
+  console.log("Probably not a central European country :D");
+}
+neighbours[neighbours.indexOf("Sweden")] = "Republic of Sweden";
+console.log(neighbours);
