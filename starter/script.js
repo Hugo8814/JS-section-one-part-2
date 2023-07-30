@@ -271,3 +271,18 @@ const clactip = function (bill) {
 };
 
 console.log(clactip(100));
+
+const bills = [124, 555, 44];
+const bill1 = clactip(bills[0]);
+const bill2 = clactip(bills[1]);
+const bill3 = clactip(bills[2]);
+
+console.log(bill1);
+console.log(bill2);
+console.log(bill3);
+
+const tip = [bill1, bill2, bill3];
+console.log(tip);
+
+const total = [tip, bills];
+console.log(total);
