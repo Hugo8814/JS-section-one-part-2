@@ -249,3 +249,25 @@
 // if (friends.includes("hugo")) {
 //   console.log("hugo is here??");
 // }
+
+// const clactip = function (bill) {
+//   let tip;
+//   if (bill >= 50 && bill <= 300) {
+//     bill * 0.15;
+//   } else {
+//     bill * 0.2;
+//   }
+//   return tip;
+// };
+
+const clactip = function (bill) {
+  let tip;
+  if (bill >= 50 && bill <= 300) {
+    tip = bill * 0.15 + bill;
+  } else {
+    tip = bill * 0.2 + bill;
+  }
+  return tip;
+};
+
+console.log(clactip(100));
