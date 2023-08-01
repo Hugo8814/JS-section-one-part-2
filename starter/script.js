@@ -179,7 +179,7 @@
 // }
 
 // console.log(checkWinner(scoreDolphins, scoreKoalas));
-
+//
 // const friend1 = "bob";
 // const friend2 = "danny";
 // const friend3 = "mike";
