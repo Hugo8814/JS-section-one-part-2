@@ -219,3 +219,33 @@
 // ];
 
 // console.log(ages);
+
+// const friends = ["bob", "tim", "mike"];
+// // add elements
+// const newLength = friends.push("jay");
+// console.log(friends);
+// console.log(newLength);
+
+// friends.unshift("kate");
+// console.log(friends);
+
+// ///remove
+// friends.pop();
+
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
+
+// friends.shift();
+// console.log(friends);
+
+// friends.push(23);
+
+// console.log(friends.indexOf("bob"));
+// console.log(friends.includes("tim"));
+// console.log(friends.includes("kate"));
+// console.log(friends.includes("23"));
+
+// if (friends.includes("hugo")) {
+//   console.log("hugo is here??");
+// }
