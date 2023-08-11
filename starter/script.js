@@ -321,3 +321,90 @@
 //   language:"english"
 //   population:"74 million"
 // };
+
+// const jonas = {
+//   firstName: "hugo",
+//   lastName: "pereira",
+//   age: 2023 - 2003,
+//   job: "five guys",
+//   friends: ["tim", "Bob", "pat"],
+// };
+// console.log(jonas);
+
+// console.log(jonas.lastName);
+// console.log(jonas["lastName"]);
+
+// const nameKey = "Name";
+// console.log(jonas["first" + nameKey]);
+// console.log(jonas["last" + nameKey]);
+
+// const interIn = prompt(
+//   "what do you want to know about hugo? choose between firstname , lastname , age ,job and friends"
+// );
+// console.log(jonas[interIn]);
+
+// if (jonas[interIn]) {
+//   console.log(jonas[interInsad]);
+// } else {
+//   console.log(
+//     " wrong request! choose between firstname , lastname , age ,job and friends "
+//   );
+// }
+
+// jonas.loction = "uk";
+// jonas["twitter"] = "@jonasschmedtman";
+
+// console.log(
+//   `${jonas.firstName} has ${jonas.friends.length} friends  and his best friend is called ${jonas.friends[0]}`
+// );
+
+// const jonas = {
+//   firstName: "hugo",
+//   lastName: "pereira",
+//   birthYear: 19,
+//   job: "five guys",
+//   friends: ["tim", "Bob", "pat"],
+//   hasDriversLincense: false,
+
+//   calcAge: function () {
+//     return 2023 - this.birthYear;
+//   },
+
+//   getsum: function () {
+//     return `${this.firstName} is a ${this.birthYear} and he has ${
+//       this.hasDriversLincense ? "a" : "no"
+//     } car`;
+//   },
+// };
+
+// //jonas.calcAge(2003);
+// console.log(jonas.getsum());
+// //console.log(jonas.calcAge());
+// //console.log(jonas["calcAge"](2003))
+// const mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
+
+// const john = {
+//   fullName: "John Smith",
+//   mass: 92,
+//   height: 1.95,
+//   calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
+
+// mark.calcBMI();
+// john.calcBMI();
+// console.log(
+//   `${john.fullName}'s BMI (${john.bmi}) is ${
+//     john.bmi > mark.bmi ? "higher" : "lower"
+//   } than ${mark.fullName}'s (${mark.bmi})!`
+// );
