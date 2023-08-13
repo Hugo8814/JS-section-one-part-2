@@ -408,3 +408,16 @@
 //     john.bmi > mark.bmi ? "higher" : "lower"
 //   } than ${mark.fullName}'s (${mark.bmi})!`
 // );
+
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`hugo is the best ${rep}`);
+// }
+
+const jonas = {
+  firstName: "hugo",
+  lastName: "pereira",
+  birthYear: 19,
+  job: "five guys",
+  friends: ["tim", "Bob", "pat"],
+  hasDriversLincense: false,
+};
