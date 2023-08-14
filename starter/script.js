@@ -413,11 +413,22 @@
 //   console.log(`hugo is the best ${rep}`);
 // }
 
-const jonas = {
-  firstName: "hugo",
-  lastName: "pereira",
-  birthYear: 19,
-  job: "five guys",
-  friends: ["tim", "Bob", "pat"],
-  hasDriversLincense: false,
-};
+const jonas = [
+  "hugo",
+  "pereira",
+  19,
+  "five guys",
+  ["tim", "Bob", "pat"],
+  "Bob",
+];
+
+const types = [];
+
+for (let i = 0; i < jonas.length; i++) {
+  console.log(jonas[i], typeof jonas[i]);
+
+  // types[i] = typeof jonas[i];
+  types.push(typeof jonas[i]);
+}
+
+console.log(types);
